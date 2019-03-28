@@ -90,6 +90,10 @@ id<LoginService> loginService = [[FisherMan man] findServiceWithName:@"LoginServ
 4. 模块中调用服务时，通过FisherMan和`服务名`查找对应服务，FisherMan通过服务注册信息找到实际服务提供者
 5. 启动其它模块时，通过FiserMan和`模块名`来启动并跳转，FisherMan通过模块注册信息，找到模块的代理者，并向模块代理者询问此模块的根视图控制器以跳转到此视图控制器。
 
+--------------------------
+#### 详细内容请下载代码查看
+--------------------------
+
 
 
 
