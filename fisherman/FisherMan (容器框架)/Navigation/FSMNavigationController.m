@@ -20,6 +20,7 @@
 - (instancetype)initWithRootViewController:(UIViewController *)rootViewController {
     self = [super initWithRootViewController:rootViewController];
     if (self) {
+        self.navigationBar.hidden = YES;
         _fsdelegate = [[FSMNavigationDelegate alloc] init];
         
         self.delegate = _fsdelegate;
@@ -29,10 +30,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 }
+- (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated
+{
+    [self pushViewController:viewController type:@"push"];
+}
 - (void)pushViewController:(UIViewController *)viewController type:(NSString *)type
 {
-    if (![type isEqualToString:@"push"])
-    _fsdelegate.isPush = NO;
+    _fsdelegate.isPush = [type isEqualToString:@"push"];
     [super pushViewController:viewController animated:YES];
 
 }

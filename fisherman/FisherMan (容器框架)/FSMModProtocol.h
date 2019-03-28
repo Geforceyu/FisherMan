@@ -9,14 +9,15 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@protocol FSMModDelegate <NSObject>
+//所有容器内的注册的模块必须遵循的协议
+
+@protocol FSMModProtocol <NSObject>
 
 @required
 - (UIViewController *)rootViewControllerForMod;
 
+@optional
 - (void)modDidFinishLaunchingWithOptions:(NSDictionary *)options;
 - (void)modDidEnterBackground;
-
-@optional
 
 @end

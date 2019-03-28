@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "FSMModDelegate.h"
+#import "FSMModProtocol.h"
 
-@interface LauncherModDelegate : NSObject <FSMModDelegate>
+@interface LauncherModDelegate : NSObject <FSMModProtocol>
 
 @end
 

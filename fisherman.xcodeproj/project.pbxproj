@@ -14,7 +14,7 @@
 		AD1457592194289F0009F9EC /* LauncherModDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1457582194289F0009F9EC /* LauncherModDelegate.m */; };
 		AD14575C219428B30009F9EC /* LauncherModRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD14575B219428B30009F9EC /* LauncherModRootViewController.m */; };
 		AD1457632194303D0009F9EC /* FSMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1457622194303D0009F9EC /* FSMAppDelegate.m */; };
-		AD145769219434000009F9EC /* TradeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD145768219434000009F9EC /* TradeViewController.m */; };
+		AD145769219434000009F9EC /* TradeModRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD145768219434000009F9EC /* TradeModRootViewController.m */; };
 		AD14576C219434260009F9EC /* TradeModDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD14576B219434260009F9EC /* TradeModDelegate.m */; };
 		ADB8E57C219A9C8700427324 /* LoginServiceImp.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB8E57A219A9C8700427324 /* LoginServiceImp.m */; };
 		ADCEB8AD224B74A6003B1961 /* FisherManContext.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCEB8AC224B74A6003B1961 /* FisherManContext.m */; };
@@ -33,16 +33,16 @@
 		AD145741219424BD0009F9EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD14574D219427250009F9EC /* FisherMan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FisherMan.h; sourceTree = "<group>"; };
 		AD14574E219427250009F9EC /* FisherMan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FisherMan.m; sourceTree = "<group>"; };
-		AD145750219427C30009F9EC /* FSMModDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSMModDelegate.h; sourceTree = "<group>"; };
-		AD145751219427D70009F9EC /* FSMService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSMService.h; sourceTree = "<group>"; };
+		AD145750219427C30009F9EC /* FSMModProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSMModProtocol.h; sourceTree = "<group>"; };
+		AD145751219427D70009F9EC /* FSMServiceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSMServiceProtocol.h; sourceTree = "<group>"; };
 		AD1457572194289F0009F9EC /* LauncherModDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LauncherModDelegate.h; sourceTree = "<group>"; };
 		AD1457582194289F0009F9EC /* LauncherModDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LauncherModDelegate.m; sourceTree = "<group>"; };
 		AD14575A219428B30009F9EC /* LauncherModRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LauncherModRootViewController.h; sourceTree = "<group>"; };
 		AD14575B219428B30009F9EC /* LauncherModRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LauncherModRootViewController.m; sourceTree = "<group>"; };
 		AD1457612194303D0009F9EC /* FSMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSMAppDelegate.h; sourceTree = "<group>"; };
 		AD1457622194303D0009F9EC /* FSMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSMAppDelegate.m; sourceTree = "<group>"; };
-		AD145767219434000009F9EC /* TradeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TradeViewController.h; sourceTree = "<group>"; };
-		AD145768219434000009F9EC /* TradeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TradeViewController.m; sourceTree = "<group>"; };
+		AD145767219434000009F9EC /* TradeModRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TradeModRootViewController.h; sourceTree = "<group>"; };
+		AD145768219434000009F9EC /* TradeModRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TradeModRootViewController.m; sourceTree = "<group>"; };
 		AD14576A219434260009F9EC /* TradeModDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TradeModDelegate.h; sourceTree = "<group>"; };
 		AD14576B219434260009F9EC /* TradeModDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TradeModDelegate.m; sourceTree = "<group>"; };
 		ADB8E579219A9C8700427324 /* LoginServiceImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginServiceImp.h; sourceTree = "<group>"; };
@@ -110,8 +110,8 @@
 				AD14574E219427250009F9EC /* FisherMan.m */,
 				AD1457612194303D0009F9EC /* FSMAppDelegate.h */,
 				AD1457622194303D0009F9EC /* FSMAppDelegate.m */,
-				AD145750219427C30009F9EC /* FSMModDelegate.h */,
-				AD145751219427D70009F9EC /* FSMService.h */,
+				AD145750219427C30009F9EC /* FSMModProtocol.h */,
+				AD145751219427D70009F9EC /* FSMServiceProtocol.h */,
 				ADCEB8B7224B8310003B1961 /* Navigation */,
 			);
 			path = "FisherMan (容器框架)";
@@ -159,8 +159,8 @@
 			children = (
 				AD14576A219434260009F9EC /* TradeModDelegate.h */,
 				AD14576B219434260009F9EC /* TradeModDelegate.m */,
-				AD145767219434000009F9EC /* TradeViewController.h */,
-				AD145768219434000009F9EC /* TradeViewController.m */,
+				AD145767219434000009F9EC /* TradeModRootViewController.h */,
+				AD145768219434000009F9EC /* TradeModRootViewController.m */,
 			);
 			path = "Trade(订单模块)";
 			sourceTree = "<group>";
@@ -258,7 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADCEB8BD224B834D003B1961 /* FSMNavigationDelegate.m in Sources */,
-				AD145769219434000009F9EC /* TradeViewController.m in Sources */,
+				AD145769219434000009F9EC /* TradeModRootViewController.m in Sources */,
 				AD14575C219428B30009F9EC /* LauncherModRootViewController.m in Sources */,
 				ADCEB8BA224B8330003B1961 /* FSMNavigationController.m in Sources */,
 				AD1457592194289F0009F9EC /* LauncherModDelegate.m in Sources */,

@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "FSMService.h"
+#import "FSMServiceProtocol.h"
 
-@protocol LoginService <FSMService>
+@protocol LoginService <FSMServiceProtocol>
 
 - (void)loginWithUserName:(NSString *)userName passwd:(NSString *)passwd;
 

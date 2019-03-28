@@ -6,15 +6,15 @@
 //  Copyright © 2018 keruyun. All rights reserved.
 //
 
-#import "TradeViewController.h"
+#import "TradeModRootViewController.h"
 #import "LoginService.h"
 #import "FisherMan.h"
 
-@interface TradeViewController ()
+@interface TradeModRootViewController ()
 
 @end
 
-@implementation TradeViewController
+@implementation TradeModRootViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

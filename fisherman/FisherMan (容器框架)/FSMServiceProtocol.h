@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-
-@protocol FSMService <NSObject>
+//容器内所有注册的服务遵循的根协议
+@protocol FSMServiceProtocol <NSObject>
 
 @optional
 

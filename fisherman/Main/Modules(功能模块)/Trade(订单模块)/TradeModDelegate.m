@@ -7,16 +7,20 @@
 //
 
 #import "TradeModDelegate.h"
-#import "TradeViewController.h"
+#import "TradeModRootViewController.h"
 
 @implementation TradeModDelegate
-
-- (UIViewController *)rootViewControllerForMod
 {
-    return [[TradeViewController alloc] init];
+    TradeModRootViewController *_rootVC;
 }
 - (void)modDidFinishLaunchingWithOptions:(NSDictionary *)options
 {
     NSLog(@"订单模块启动");
+
+    _rootVC = [[TradeModRootViewController alloc] init];
+}
+- (UIViewController *)rootViewControllerForMod
+{
+    return _rootVC;
 }
 @end

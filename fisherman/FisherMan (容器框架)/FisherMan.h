@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "FSMModDelegate.h"
-#import "FSMService.h"
+#import "FSMModProtocol.h"
+#import "FSMServiceProtocol.h"
 
 typedef enum : NSUInteger {
     FMModTransitionTypeNone,

@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "FSMModDelegate.h"
+#import "FSMModProtocol.h"
 
-@interface TradeModDelegate : NSObject <FSMModDelegate>
+@interface TradeModDelegate : NSObject <FSMModProtocol>
 
 @end

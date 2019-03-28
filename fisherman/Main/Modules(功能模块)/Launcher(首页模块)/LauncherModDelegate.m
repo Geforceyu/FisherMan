@@ -18,7 +18,7 @@
 {
     _rootVC = [[LauncherModRootViewController alloc] init];
 }
-//返回模块的根视图控制器
+//模块的根视图控制器
 - (UIViewController *)rootViewControllerForMod
 {
     return _rootVC;
