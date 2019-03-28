@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD145734219424BB0009F9EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD145733219424BB0009F9EC /* AppDelegate.m */; };
+		AD14573C219424BD0009F9EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD14573B219424BD0009F9EC /* Assets.xcassets */; };
+		AD145742219424BD0009F9EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD145741219424BD0009F9EC /* main.m */; };
+		AD14574F219427250009F9EC /* FisherMan.m in Sources */ = {isa = PBXBuildFile; fileRef = AD14574E219427250009F9EC /* FisherMan.m */; };
+		AD1457592194289F0009F9EC /* LauncherModDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1457582194289F0009F9EC /* LauncherModDelegate.m */; };
+		AD14575C219428B30009F9EC /* LauncherModRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD14575B219428B30009F9EC /* LauncherModRootViewController.m */; };
+		AD1457632194303D0009F9EC /* FSMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1457622194303D0009F9EC /* FSMAppDelegate.m */; };
+		AD145769219434000009F9EC /* TradeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD145768219434000009F9EC /* TradeViewController.m */; };
+		AD14576C219434260009F9EC /* TradeModDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD14576B219434260009F9EC /* TradeModDelegate.m */; };
+		ADB8E57C219A9C8700427324 /* LoginServiceImp.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB8E57A219A9C8700427324 /* LoginServiceImp.m */; };
+		ADCEB8AD224B74A6003B1961 /* FisherManContext.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCEB8AC224B74A6003B1961 /* FisherManContext.m */; };
+		ADCEB8AF224B775E003B1961 /* MyAppProfile.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADCEB8AE224B775E003B1961 /* MyAppProfile.plist */; };
+		ADCEB8BA224B8330003B1961 /* FSMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCEB8B9224B8330003B1961 /* FSMNavigationController.m */; };
+		ADCEB8BD224B834D003B1961 /* FSMNavigationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCEB8BC224B834D003B1961 /* FSMNavigationDelegate.m */; };
+		ADCEB8C0224B8364003B1961 /* FSMNavigationTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCEB8BF224B8364003B1961 /* FSMNavigationTransition.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD14572F219424BB0009F9EC /* fisherman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fisherman.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD145732219424BB0009F9EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD145733219424BB0009F9EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD14573B219424BD0009F9EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD145740219424BD0009F9EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD145741219424BD0009F9EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD14574D219427250009F9EC /* FisherMan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FisherMan.h; sourceTree = "<group>"; };
+		AD14574E219427250009F9EC /* FisherMan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FisherMan.m; sourceTree = "<group>"; };
+		AD145750219427C30009F9EC /* FSMModDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSMModDelegate.h; sourceTree = "<group>"; };
+		AD145751219427D70009F9EC /* FSMService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSMService.h; sourceTree = "<group>"; };
+		AD1457572194289F0009F9EC /* LauncherModDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LauncherModDelegate.h; sourceTree = "<group>"; };
+		AD1457582194289F0009F9EC /* LauncherModDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LauncherModDelegate.m; sourceTree = "<group>"; };
+		AD14575A219428B30009F9EC /* LauncherModRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LauncherModRootViewController.h; sourceTree = "<group>"; };
+		AD14575B219428B30009F9EC /* LauncherModRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LauncherModRootViewController.m; sourceTree = "<group>"; };
+		AD1457612194303D0009F9EC /* FSMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSMAppDelegate.h; sourceTree = "<group>"; };
+		AD1457622194303D0009F9EC /* FSMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSMAppDelegate.m; sourceTree = "<group>"; };
+		AD145767219434000009F9EC /* TradeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TradeViewController.h; sourceTree = "<group>"; };
+		AD145768219434000009F9EC /* TradeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TradeViewController.m; sourceTree = "<group>"; };
+		AD14576A219434260009F9EC /* TradeModDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TradeModDelegate.h; sourceTree = "<group>"; };
+		AD14576B219434260009F9EC /* TradeModDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TradeModDelegate.m; sourceTree = "<group>"; };
+		ADB8E579219A9C8700427324 /* LoginServiceImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginServiceImp.h; sourceTree = "<group>"; };
+		ADB8E57A219A9C8700427324 /* LoginServiceImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginServiceImp.m; sourceTree = "<group>"; };
+		ADB8E57B219A9C8700427324 /* LoginService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginService.h; sourceTree = "<group>"; };
+		ADCEB8AB224B74A6003B1961 /* FisherManContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FisherManContext.h; sourceTree = "<group>"; };
+		ADCEB8AC224B74A6003B1961 /* FisherManContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FisherManContext.m; sourceTree = "<group>"; };
+		ADCEB8AE224B775E003B1961 /* MyAppProfile.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = MyAppProfile.plist; sourceTree = "<group>"; };
+		ADCEB8B8224B8330003B1961 /* FSMNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSMNavigationController.h; sourceTree = "<group>"; };
+		ADCEB8B9224B8330003B1961 /* FSMNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSMNavigationController.m; sourceTree = "<group>"; };
+		ADCEB8BB224B834D003B1961 /* FSMNavigationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMNavigationDelegate.h; sourceTree = "<group>"; };
+		ADCEB8BC224B834D003B1961 /* FSMNavigationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMNavigationDelegate.m; sourceTree = "<group>"; };
+		ADCEB8BE224B8364003B1961 /* FSMNavigationTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSMNavigationTransition.h; sourceTree = "<group>"; };
+		ADCEB8BF224B8364003B1961 /* FSMNavigationTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSMNavigationTransition.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD14572C219424BB0009F9EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD145726219424BB0009F9EC = {
+			isa = PBXGroup;
+			children = (
+				AD145731219424BB0009F9EC /* fisherman */,
+				AD145730219424BB0009F9EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD145730219424BB0009F9EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD14572F219424BB0009F9EC /* fisherman.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD145731219424BB0009F9EC /* fisherman */ = {
+			isa = PBXGroup;
+			children = (
+				AD145732219424BB0009F9EC /* AppDelegate.h */,
+				AD145733219424BB0009F9EC /* AppDelegate.m */,
+				AD14573B219424BD0009F9EC /* Assets.xcassets */,
+				AD145740219424BD0009F9EC /* Info.plist */,
+				ADCEB8AE224B775E003B1961 /* MyAppProfile.plist */,
+				AD145741219424BD0009F9EC /* main.m */,
+				AD1457522194283F0009F9EC /* Main */,
+				AD14574A219426050009F9EC /* FisherMan (容器框架) */,
+			);
+			path = fisherman;
+			sourceTree = "<group>";
+		};
+		AD14574A219426050009F9EC /* FisherMan (容器框架) */ = {
+			isa = PBXGroup;
+			children = (
+				ADCEB8AB224B74A6003B1961 /* FisherManContext.h */,
+				ADCEB8AC224B74A6003B1961 /* FisherManContext.m */,
+				AD14574D219427250009F9EC /* FisherMan.h */,
+				AD14574E219427250009F9EC /* FisherMan.m */,
+				AD1457612194303D0009F9EC /* FSMAppDelegate.h */,
+				AD1457622194303D0009F9EC /* FSMAppDelegate.m */,
+				AD145750219427C30009F9EC /* FSMModDelegate.h */,
+				AD145751219427D70009F9EC /* FSMService.h */,
+				ADCEB8B7224B8310003B1961 /* Navigation */,
+			);
+			path = "FisherMan (容器框架)";
+			sourceTree = "<group>";
+		};
+		AD1457522194283F0009F9EC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AD1457532194283F0009F9EC /* Modules(功能模块) */,
+				AD1457542194283F0009F9EC /* Services(通用服务) */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		AD1457532194283F0009F9EC /* Modules(功能模块) */ = {
+			isa = PBXGroup;
+			children = (
+				AD1457552194285B0009F9EC /* Launcher(首页模块) */,
+				AD1457562194285B0009F9EC /* Trade(订单模块) */,
+			);
+			path = "Modules(功能模块)";
+			sourceTree = "<group>";
+		};
+		AD1457542194283F0009F9EC /* Services(通用服务) */ = {
+			isa = PBXGroup;
+			children = (
+				ADB8E578219A9C8700427324 /* LoginService(登录服务) */,
+			);
+			path = "Services(通用服务)";
+			sourceTree = "<group>";
+		};
+		AD1457552194285B0009F9EC /* Launcher(首页模块) */ = {
+			isa = PBXGroup;
+			children = (
+				AD1457572194289F0009F9EC /* LauncherModDelegate.h */,
+				AD1457582194289F0009F9EC /* LauncherModDelegate.m */,
+				AD14575A219428B30009F9EC /* LauncherModRootViewController.h */,
+				AD14575B219428B30009F9EC /* LauncherModRootViewController.m */,
+			);
+			path = "Launcher(首页模块)";
+			sourceTree = "<group>";
+		};
+		AD1457562194285B0009F9EC /* Trade(订单模块) */ = {
+			isa = PBXGroup;
+			children = (
+				AD14576A219434260009F9EC /* TradeModDelegate.h */,
+				AD14576B219434260009F9EC /* TradeModDelegate.m */,
+				AD145767219434000009F9EC /* TradeViewController.h */,
+				AD145768219434000009F9EC /* TradeViewController.m */,
+			);
+			path = "Trade(订单模块)";
+			sourceTree = "<group>";
+		};
+		ADB8E578219A9C8700427324 /* LoginService(登录服务) */ = {
+			isa = PBXGroup;
+			children = (
+				ADB8E579219A9C8700427324 /* LoginServiceImp.h */,
+				ADB8E57A219A9C8700427324 /* LoginServiceImp.m */,
+				ADB8E57B219A9C8700427324 /* LoginService.h */,
+			);
+			path = "LoginService(登录服务)";
+			sourceTree = "<group>";
+		};
+		ADCEB8B7224B8310003B1961 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				ADCEB8B8224B8330003B1961 /* FSMNavigationController.h */,
+				ADCEB8B9224B8330003B1961 /* FSMNavigationController.m */,
+				ADCEB8BB224B834D003B1961 /* FSMNavigationDelegate.h */,
+				ADCEB8BC224B834D003B1961 /* FSMNavigationDelegate.m */,
+				ADCEB8BE224B8364003B1961 /* FSMNavigationTransition.h */,
+				ADCEB8BF224B8364003B1961 /* FSMNavigationTransition.m */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD14572E219424BB0009F9EC /* fisherman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD145745219424BD0009F9EC /* Build configuration list for PBXNativeTarget "fisherman" */;
+			buildPhases = (
+				AD14572B219424BB0009F9EC /* Sources */,
+				AD14572C219424BB0009F9EC /* Frameworks */,
+				AD14572D219424BB0009F9EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fisherman;
+			productName = fisherman;
+			productReference = AD14572F219424BB0009F9EC /* fisherman.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD145727219424BB0009F9EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = keruyun;
+				TargetAttributes = {
+					AD14572E219424BB0009F9EC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = AD14572A219424BB0009F9EC /* Build configuration list for PBXProject "fisherman" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD145726219424BB0009F9EC;
+			productRefGroup = AD145730219424BB0009F9EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD14572E219424BB0009F9EC /* fisherman */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD14572D219424BB0009F9EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCEB8AF224B775E003B1961 /* MyAppProfile.plist in Resources */,
+				AD14573C219424BD0009F9EC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD14572B219424BB0009F9EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCEB8BD224B834D003B1961 /* FSMNavigationDelegate.m in Sources */,
+				AD145769219434000009F9EC /* TradeViewController.m in Sources */,
+				AD14575C219428B30009F9EC /* LauncherModRootViewController.m in Sources */,
+				ADCEB8BA224B8330003B1961 /* FSMNavigationController.m in Sources */,
+				AD1457592194289F0009F9EC /* LauncherModDelegate.m in Sources */,
+				AD145742219424BD0009F9EC /* main.m in Sources */,
+				AD14576C219434260009F9EC /* TradeModDelegate.m in Sources */,
+				ADCEB8C0224B8364003B1961 /* FSMNavigationTransition.m in Sources */,
+				ADCEB8AD224B74A6003B1961 /* FisherManContext.m in Sources */,
+				AD14574F219427250009F9EC /* FisherMan.m in Sources */,
+				ADB8E57C219A9C8700427324 /* LoginServiceImp.m in Sources */,
+				AD1457632194303D0009F9EC /* FSMAppDelegate.m in Sources */,
+				AD145734219424BB0009F9EC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AD145743219424BD0009F9EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AD145744219424BD0009F9EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD145746219424BD0009F9EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fisherman/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.keruyun.fisherman;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD145747219424BD0009F9EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fisherman/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.keruyun.fisherman;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD14572A219424BB0009F9EC /* Build configuration list for PBXProject "fisherman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD145743219424BD0009F9EC /* Debug */,
+				AD145744219424BD0009F9EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD145745219424BD0009F9EC /* Build configuration list for PBXNativeTarget "fisherman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD145746219424BD0009F9EC /* Debug */,
+				AD145747219424BD0009F9EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD145727219424BB0009F9EC /* Project object */;
+}

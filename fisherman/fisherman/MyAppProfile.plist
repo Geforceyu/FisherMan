@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Services</key>
+	<array>
+		<dict>
+			<key>imp</key>
+			<string>LoginServiceImp</string>
+			<key>name</key>
+			<string>LoginService</string>
+		</dict>
+	</array>
+	<key>Modules</key>
+	<array>
+		<dict>
+			<key>delegate</key>
+			<string>LauncherModDelegate</string>
+			<key>name</key>
+			<string>LauncherMod</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>TradeMod</string>
+			<key>delegate</key>
+			<string>TradeModDelegate</string>
+		</dict>
+	</array>
+</dict>
+</plist>
