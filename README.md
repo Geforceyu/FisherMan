@@ -18,6 +18,7 @@
 @protocol FSMModProtocol <NSObject>
 
 @required
+//返回当前模块的根视图控制器
 - (UIViewController *)rootViewControllerForMod;
 
 @optional
