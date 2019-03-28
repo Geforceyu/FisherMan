@@ -17,7 +17,19 @@
 - (UIViewController *)rootViewControllerForMod;
 
 @optional
+
 - (void)modDidFinishLaunchingWithOptions:(NSDictionary *)options;
+
+- (void)modWillResignActive;
+
 - (void)modDidEnterBackground;
+
+- (void)modWillEnterForeground;
+
+- (void)modDidBecomeActive;
+
+- (void)modWillTerminate;
+
+- (void)modDidReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler;
 
 @end
