@@ -2,12 +2,12 @@
 
 ### 架构概览
 
-![FisherMan](https://github.com/Geforceyu/FisherMan/blob/master/ReadmeSource/main.png?raw=true)
+![FisherMan](https://raw.githubusercontent.com/Geforceyu/FisherMan/master/ReadmeSource/main.png)
 
 
 **此架构的核心思想是，将经典的基于整个APP维度的AppDelegate、RootViewController缩小为模块维度，即整个项目由多个模块组合而成，每个模块都有自己的ModDelegate、ModRootViewController，由一个全局的容器来包含这些模块，APP的生命周期也交由这个全局容器处理，容器再将APP事件分发到各个模块。所有模块和服务只依赖此容器，模块间互不依赖**
 
-![](https://github.com/Geforceyu/FisherMan/blob/master/ReadmeSource/modules.png?raw=true)
+![](https://raw.githubusercontent.com/Geforceyu/FisherMan/master/ReadmeSource/modules.png)
 
 ### 面向协议
 >此架构主要利用OC的协议,来达到约束模块和服务的目的，同时协议也使得架构更加灵活、有效减少耦合和强依赖。以下两个协议即此架构的核心协议
@@ -76,7 +76,7 @@ id<LoginService> loginService = [[FisherMan man] findServiceWithName:@"LoginServ
 
 > 采用plist来保存模块和服务的注册信息
 
-![](https://github.com/Geforceyu/FisherMan/blob/master/ReadmeSource/profile.png?raw=true)
+![](https://raw.githubusercontent.com/Geforceyu/FisherMan/master/ReadmeSource/pofile.png)
 
 > tip:这里services和modules的信息放在一个plist文件里面，若项目过大，可考虑将services和modules的注册plist文件拆成两个分别存放。
 - 每个服务的信息包括服务名(name)及服务的实现类名(imp)组成。
