@@ -76,7 +76,7 @@ id<LoginService> loginService = [[FisherMan man] findServiceWithName:@"LoginServ
 
 > 采用plist来保存模块和服务的注册信息
 
-![](https://raw.githubusercontent.com/Geforceyu/FisherMan/master/ReadmeSource/pofile.png)
+![](https://raw.githubusercontent.com/Geforceyu/FisherMan/master/ReadmeSource/profile.png)
 
 > tip:这里services和modules的信息放在一个plist文件里面，若项目过大，可考虑将services和modules的注册plist文件拆成两个分别存放。
 - 每个服务的信息包括服务名(name)及服务的实现类名(imp)组成。
